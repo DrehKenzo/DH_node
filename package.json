@@ -1,0 +1,24 @@
+{
+  "name": "dh_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode=development -w"
+  },
+  "repository": "git+https://github.com/DrehKenzo/DH_node.git",
+  "author": "André Murakami <drehkenzo20@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrehKenzo/DH_node/issues"
+  },
+  "homepage": "https://github.com/DrehKenzo/DH_node#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "babel-loader": "^8.0.6"
+  }
+}
