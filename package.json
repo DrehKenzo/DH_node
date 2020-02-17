@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --mode=development -w",
-    "build": "webpack --mode=production"
+    "build": "webpack --mode=production",
+    "server": "nodemon app.js"
   },
   "repository": "git+https://github.com/DrehKenzo/DH_node.git",
   "author": "André Murakami <drehkenzo20@gmail.com>",
@@ -19,11 +20,12 @@
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
     "babel-loader": "^8.0.6",
+    "nodemon": "^2.0.2",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
   },
-  "Dependencies":{
+  "Dependencies": {
     "express": "^4.17.1"
   }
 }
